@@ -11,6 +11,7 @@ python = "3.11.*"
 fastapi = "^0.104.0"
 uvicorn = "^0.23.2"
 ignr = "^2.2"
+pydantic = {extras = ["email"], version = "^2.4.2"}
 
 
 [tool.poetry.group.dev.dependencies]
